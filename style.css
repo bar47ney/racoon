@@ -1,0 +1,172 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 60vw;
+    margin: 0 20vw 20px;
+    background-color: wheat;
+    background-color: blanchedalmond;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+header, footer{
+    height: 100px;
+    background-color: coral;
+    border-radius: 50px;
+}
+
+h1{
+    font-size: 55px;
+    padding-top: 15px;
+}
+
+h1, h2, figcaption{
+    text-align: center;
+}
+
+h2{
+    margin-top: 40px;
+    font-size: 27px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 10px darkslateblue;
+    transition: .5s;
+}
+
+h2 a:hover{
+    text-shadow: 1px 1px 5px orange;
+}
+
+nav{
+    width: 15%;
+    height: 100px;
+    background-color: darkslateblue;
+    position: fixed;
+    top: 40%;
+    left: 0;
+    border-radius: 15px;
+    opacity: 0;
+    transition: .5s linear;
+    color: aliceblue;
+    font-family: "Century Gothic";
+}
+
+#menuLink{
+    position: fixed;
+    top: 45%;
+    left: 0;
+    width: 45px;
+}
+
+nav:hover{
+    opacity: 1;
+}
+
+nav p{
+    text-align: center;
+    font-size: 18px;
+    margin: 7px 0 0 0;
+}
+
+ul{
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: .5s;
+}
+
+a:hover{
+    text-shadow: 1px 1px 10px wheat;
+}
+
+footer{
+    position: relative;
+    padding: 0;
+    border-radius: 0;
+}
+
+footer p{
+    padding: 15px 0 15px 10px;
+}
+
+footer figure{
+    position: absolute;
+    right: 0;
+    margin: 0;
+    width: 10%;
+    height: 100%;
+}
+
+footer figcaption{
+    font-size: 18px;
+}
+
+article figcaption{
+    margin: 10px 0 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer img{
+    margin: 0 25%;
+    width: 50%;
+    border-radius: 5px;
+    transition: .7s;
+}
+
+footer img:hover{
+    background-color: whitesmoke;
+}
+
+section img{
+    margin: 0 28%;
+    width: 45%;
+    border-radius: 15px;
+}
+
+#enotTwo img{
+    margin: 0 18%;
+    width: 65%;
+}
+
+#footerMail{
+    position: absolute;
+    top: 72px;
+    left: 109px;
+    width: 50px;
+}
+
+#footerPhone{
+    position: absolute;
+    top: 16px;
+    left: 125px;
+    width: 50px;
+}
+
+#footerWorld{
+    position: absolute;
+    top: 43px;
+    left: 200px;
+    width: 55px;
+}
+
+#footerWood{
+    position: absolute;
+    top: 10%;
+    left: 42%;
+    width: 155px;
+}
+
+#year{
+    text-align: center;
+}
+
+/*Увеличить картинки*/
+/*Текст поменять с болда на регулар*/
+/*Цвет фона сделать менее насыщенным*/
